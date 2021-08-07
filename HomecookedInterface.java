@@ -132,7 +132,10 @@ public class HomecookedInterface {
                 Inventory_Add = input.nextLine();
                 System.out.println("What is the price?");
                 Add_Price = input.nextLine();
-                NewInventory = "6. " + Inventory_Add + " $" + Add_Price;
+                System.out.println("Please enter a description for the item.");
+                String Desc = input.nextLine();
+                NewInventory = "6. " + Inventory_Add + " $" + Add_Price + " - " + Desc;
+                
             }
             else if (MenuInput == 2){
                 Inventory(NewInventory);
