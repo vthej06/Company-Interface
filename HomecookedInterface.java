@@ -33,18 +33,23 @@ public class HomecookedInterface {
 
     }
 
-    public static void Inventory(String NewInventory){ //The method for the Inventory
+    public static void Inventory(String NewInventory){ //The method to display the menu
 
 
-        System.out.println("\n\n1. Home Cook $25 ");
+        System.out.println("\n\n 1. Home Cook $25 - The chef will prepare your meal in a separate location, and you will pick up the meal. " +
+                "You may choose the recipe and any special ingredients.");
 
-        System.out.println("\n2. Home Cook Delivery $28 ");
+        System.out.println("\n 2. Home Cook Delivery $28 - The chef will prepare your meal in a separate location, and the meal will be delivered to your house. " +
+                "You may choose the recipe and any special ingredients.");
 
-        System.out.println("\n3. Live Cook 1 $37 ");
+        System.out.println("\n 3. Live Cook 1 $37 - The chef will prepare the meal in your home and serve it to you. Any minor modifications to the meal can be made at a moments notice." +
+                "You must provide the ingredients.");
 
-        System.out.println("\n4. Live Cook 2 $45");
+        System.out.println("\n 4. Live Cook 2 $45 - The chef will prepare the meal in your home and serve it to you. Any minor modifications to the meal can be made at a moments notice." +
+                "The chef will provide the ingredients.");
 
-        System.out.println("\n5. Interactive $55");
+        System.out.println("\n 5. Interactive $55 - The chef will come to your house and cook with you. " +
+                "You will learn the basics of cooking, or more advanced techniques, whichever one you want.");
 
         System.out.println("\n " + NewInventory);
         System.out.println();
